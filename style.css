@@ -1,0 +1,75 @@
+
+
+body {
+    background: #141E30;
+    background: -webkit-repeating-linear-gradient(-45deg, #35577D, #141E30);
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.introduction {
+    color:rgb(14, 20, 73)
+}
+
+.title {
+    background-color: darkslategrey;
+    color:rgb(14, 20, 73);
+    font-family: Tahoma;
+    font-size: 30px;
+    text-align: center;
+}
+
+head{
+    font-family: Tahoma;
+}
+
+.information {
+    color:blanchedalmond;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 30px;
+}
+
+.bolt {
+    color: rgb(62, 62, 134);
+}
+
+p {
+    color: dimgrey;
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    border: 5px solid #555;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 50px;
+    background: #141E30;
+    background: -webkit-repeating-linear-gradient(-45deg, #35577D, #141E30);
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+    transition: transform .2s; /* Animation */
+    width: 350px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+.image:hover{
+    transform: scale(1.5);
+}
+
+conclusion{
+    color:navajowhite;
+    
+}
